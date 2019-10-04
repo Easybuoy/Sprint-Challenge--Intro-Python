@@ -80,10 +80,9 @@ cityreader(cities)
 # Salt Lake City: (40.7774,-111.9301)
 
 # TODO Get latitude and longitude values from the user
-# userInput = input('Enter lat1,lon1: ').split(',')
-# userInput2 = input('Enter lat2,lon2: ').split(',')
-# print(round(36.2288))
-# print(round(float(userInput[0]))
+userInput = input('Enter lat1,lon1: ').split(',')
+userInput2 = input('Enter lat2,lon2: ').split(',')
+
 
 def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
   # print(cities)
@@ -110,6 +109,5 @@ def cityreader_stretch(lat1, lon1, lat2, lon2, cities=[]):
       within.append(city)
   return within
 
-# print(cityreader_stretch(userInput[0], userInput[1], userInput2[0], userInput2[1], cities))
-# cityreader_stretch(userInput[0], userInput[1], userInput2[0], userInput2[1], cities)
+print(cityreader_stretch(userInput[0], userInput[1], userInput2[0], userInput2[1], cities))
 
