@@ -44,7 +44,7 @@ print(b)
 print("Starts between C and G, inclusive:")
 c = []
 for human in humans:
-    if (human.name[0] == 'C' or human.name[0] == 'G'):
+    if (human.name[0] == 'C' or human.name[0] == 'D' or human.name[0] == 'E' or human.name[0] == 'F' or human.name[0] == 'G' ):
         c.append(human.name)
 print(c)
 
